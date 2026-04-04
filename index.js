@@ -11,16 +11,9 @@ if (attempts > 0 && attempts <= 3) {
 
 // user info
 function createLoginTracker(userInfo) {
-    username = userInfo.username;
-    password = userInfo.password;
+    "username" = "user 1";
+    "password" = "password";
 
-    return function createLoginTracker() {
-        if (attempts > 0 && attempts <= 3) {
-    console.log(`You have ${attempts} attempts left.`);
-    attempts--;
-        } else {
-    console.log(" Account locked.No more attempts left.");
-    
-    }  
 }
-}
+
+// 
